@@ -95,3 +95,40 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  .yoga-app-img {
+    display: none;
+  }
+  /* .yoga-app-link {
+    margin-top: 5px;
+    margin-bottom: 30px;
+  } */
+  .yogurt-img {
+    display: none;
+  }
+  .weather-app-img {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .yoga-paragraph {
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  .weather-paragraph {
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  .yogurt-paragraph {
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+}
