@@ -71,14 +71,9 @@ p {
 }
 
 .about-paragraphs {
-  display: inline;
-
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  background-color: none;
-  margin: 30px -300px 30px -300px;
+  display: block;
+  text-align: center;
+  margin: 10px;
 }
 
 .email-link {
@@ -104,7 +99,7 @@ p {
     margin-top: 5px;
     margin-bottom: 30px;
   } */
-  .yogurt-img {
+  .yogurt-app-img {
     display: none;
   }
   .weather-app-img {
@@ -130,5 +125,36 @@ p {
     width: 100%;
     margin-bottom: 10px;
     background-color: white;
+  }
+}
+@media (max-width: 576px) {
+  .h1-about {
+    font-size: 30px;
+    text-align: center;
+    /* display: grid;
+    place-items: center; */
+  }
+}
+
+/* about.me-page */
+@media (max-width: 576px) {
+  .weather-img {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 576px) {
+  .about-paragraph-text {
+    font-size: 18px;
+    text-align: center;
+    background-color: white;
+  }
+}
+@media (max-width: 576px) {
+  .about-h2-contact {
+    font-size: 15px;
+  }
+  .email-link {
+    font-size: 15px;
   }
 }
